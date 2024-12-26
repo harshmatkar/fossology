@@ -43,6 +43,12 @@
       <td valign="top" style="background: #efefef; width:1px; font-family:monospace; word-break:break-all;" id="nav-shower" hidden>
           &raquo;&nbsp;{{ 'Folder Navigation'|trans|replace({' ':'&nbsp;'}) }}&nbsp;&raquo;
       </td>
+      <td valign="top" style="background: #efefef; width:1px; font-family:monospace; word-break:break-all;" id="nav-shower" hidden>
+          <button class="btn btn-outline-primary" id="nav-shower-btn">
+            &raquo;&nbsp;{{ 'Folder Navigation'|trans|replace({' ':'&nbsp;'}) }}&nbsp;&raquo;
+          </button>
+      </td>
+
       <td valign="top">
         <div style="text-align:center;font-size:large;"><strong><u>{{ 'Uploads'|trans }} {{ 'in'|trans }} <span id="current-folder">{{ folderName }}</span></u></strong></div>
         <form name="uploadMultiSelect">
